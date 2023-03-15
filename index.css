@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    height: 50px;
+    width: 150px;
+}
+.remove{
+    list-style-type: none;
+}
+.bgimage{
+    background: url(./image/clientmeet.jpg) ;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 100vw;
+    color: #fff;
+}
+.bgimage p{
+    font-size: 55px;
+    text-align: center;
+}
+
+.doctor{
+    height: 350px;
+    width: 250px;
+}
+.doctor img{
+    height: 100%;
+    width: 100%;
+}
+
+.room-box{
+    height: 50vh;
+}
+.room1{
+    background-image: url('./image/clinic.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+
+}
+.room2{
+    background-image: url('./image/icuroom.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50vw;
+  
+    
+}
+
+.insurance-text {
+    width: 40%;
+}
+.insurance-img{
+    width: 40%;
+}
